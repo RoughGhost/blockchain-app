@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: UNLICENSED
+
 pragma solidity ^0.8.0;
 
 contract Transactions {
@@ -56,7 +58,7 @@ contract Transactions {
         view
         returns (TransferStruct[] memory)
     {
-        return transactions
+        return transactions;
     }
 
     function getTransactionCount() public view returns (uint256) {
